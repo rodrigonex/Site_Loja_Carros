@@ -41,7 +41,7 @@ html, body{
 }
 
 .banner-text{
-    padding: 90px 130px;
+    padding: 90px 7%;
 }
 
 .banner-text ul{
@@ -92,11 +92,64 @@ html, body{
 .text-banner-single-white{
     background-image: url(../img/box-white-text.png);
     background-repeat: no-repeat;
-    top:5px;
+    top:3px;
     width: 500px;
     color: black;
     position: relative;
     left: 40px;
 }
 
+.carros{
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
 
+.carros h1{
+    position: relative;
+    top: 15px;
+    width: 350px;
+    margin-left: calc(36% + 10px);
+    background-color: white;
+}
+
+.galeria_carros{
+    border-top: 3px solid black;
+    width: 800px;
+    margin-left: 20%;
+}
+
+.carros-gl{
+    margin: 50px 0;
+    display: inline-block;
+    width: calc(33% - 3px);
+}
+
+.img-carro{
+    width: 90%;
+    background-color: red;
+    height: 100px;
+}
+.carros-gl:nth-of-type(3) .img-carro{
+    position: relative;
+    left: 30px;
+}
+
+.carros-gl:nth-of-type(2) .img-carro{
+    position: relative;
+    left: 10px;
+}
+
+.carros-gl h2{
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: start;
+}
+
+.carros-gl:nth-of-type(2) h2{
+    padding-left: 8px;
+}
+
+.carros-gl:nth-of-type(3) h2{
+    padding-left: 12%;
+}
